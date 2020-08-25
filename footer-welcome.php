@@ -3,7 +3,7 @@
 		<div class="row align-items-end">
 			<div class="col-12 col-md-6">
 				<div class="copyright">
-					<?php bloginfo('name'); ?> s.r.l. P.IVA IT05696960961 - <?php _e("All rights reserved", 'tamilano-child'); ?>. 
+					<?php bloginfo('name'); ?> s.r.l. P.IVA IT05696960961 - <?php _e("All rights reserved", 'tamilano-child-clone'); ?>. 
 				</div>
 			</div>
 			<div class="col-12 col-md-6">

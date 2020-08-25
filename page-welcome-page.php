@@ -13,8 +13,8 @@
 					<img src="<?php echo $image_path; ?>/pattern-orange.png" class="img-fluid" />
 				</div>
 				<div class="d-inline-block">
-					<div class="link-title"><?php _e('Chocolate & Pastry','tamilano-child'); ?></div>
-					<a href="home-page-shop" class="link-button"><?php _e('Take me to the shop','tamilano-child'); ?></a>
+					<div class="link-title"><?php _e('Chocolate & Pastry','tamilano-child-clone'); ?></div>
+					<a href="home-page-shop" class="link-button"><?php _e('Take me to the shop','tamilano-child-clone'); ?></a>
 				</div>
 			</div>
 			<div class="overlay"></div>
@@ -25,8 +25,8 @@
 					<img src="<?php echo $image_path; ?>/pattern-orange.png" class="img-fluid" />
 				</div>
 				<div class="d-inline-block">
-					<div class="link-title"><?php _e('Catering & Event','tamilano-child'); ?></div>
-					<a href="catering-banqueting" class="link-button"><?php _e('Contact for more','tamilano-child'); ?></a>
+					<div class="link-title"><?php _e('Catering & Event','tamilano-child-clone'); ?></div>
+					<a href="catering-banqueting" class="link-button"><?php _e('Contact for more','tamilano-child-clone'); ?></a>
 				</div>
 			</div>
 			<div class="overlay"></div>

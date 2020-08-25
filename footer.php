@@ -11,13 +11,13 @@
 					<div class="col-custom pattern-mobile">
 						<div class="newsletter-box">
 							<div class="prefooter-title">
-								<?php _e("Stay updated", "tamilano-child"); ?>
+								<?php _e("Stay updated", "tamilano-child-clone"); ?>
 							</div>
 							<div class="newsletter-form">
 								<?php echo do_shortcode('[contact-form-7 id="156" title="Newsletter Form"]'); ?>
 							</div>
 							<div class="prefooter-title">
-								<?php _e("Follow Us", "tamilano-child"); ?>
+								<?php _e("Follow Us", "tamilano-child-clone"); ?>
 							</div>
 							<div class="social-link">
 								<ul>
@@ -35,7 +35,7 @@
 				<div class="row align-items-end">
 					<div class="col-12 col-md-6">
 						<div class="copyright">
-							<?php bloginfo('name'); ?> s.r.l. P.IVA IT05696960961 - <?php _e("All rights reserved", 'tamilano-child'); ?>. 
+							<?php bloginfo('name'); ?> s.r.l. P.IVA IT05696960961 - <?php _e("All rights reserved", 'tamilano-child-clone'); ?>. 
 						</div>
 					</div>
 					<div class="col-12 col-md-6">

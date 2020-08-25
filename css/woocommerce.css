@@ -1,59 +1,59 @@
 /* DEFINE FONTS*/
 /* DEFINE COLOURS*/
 /* DEFINE COLUMNS */
-/* line 26, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+/* line 26, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/mixins.scss */
 .col-custom {
   position: relative;
   flex: 0 0 calc(50% - 40px);
   max-width: calc(50% - 40px);
 }
 
-/* line 32, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+/* line 32, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/mixins.scss */
 .col-custom-2 {
   position: relative;
   flex: 0 0 calc(50% + 40px);
   max-width: calc(50% + 40px);
 }
 
-/* line 38, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+/* line 38, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/mixins.scss */
 .col-custom-3 {
   position: relative;
   flex: 0 0 12.5%;
   max-width: 12.5%;
 }
 
-/* line 44, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+/* line 44, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/mixins.scss */
 .col-center {
   position: relative;
   flex: 0 0 80px;
   max-width: 80px;
 }
 
-/* line 50, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+/* line 50, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/mixins.scss */
 .offset-custom {
   margin-left: calc(50% - 40px);
 }
 
-/* line 54, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+/* line 54, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/mixins.scss */
 .offset-custom-2 {
   margin-left: calc(50% + 40px);
 }
 
-/* line 2, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 2, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce {
   /* CART */
   /* MESSAGES */
   /* SINGLE PRODUCT */
 }
 
-/* line 6, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 6, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart {
   margin-top: 30px;
   border: none;
   border-bottom: 1px solid #F26722;
 }
 
-/* line 10, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 10, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart th {
   font-weight: 400;
   color: #006578;
@@ -61,7 +61,7 @@
   font-size: 18px;
 }
 
-/* line 16, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 16, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart td {
   border-color: #F26722;
   color: #F26722;
@@ -70,28 +70,28 @@
   padding: 20px 0;
 }
 
-/* line 22, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 22, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart td.product-name {
   text-align: left;
   padding-left: 50px;
 }
 
-/* line 25, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 25, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart td.product-name .product-image {
   display: inline-block;
 }
 
-/* line 27, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 27, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart td.product-name .product-image img {
   width: 100px;
 }
 
-/* line 31, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 31, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart td.product-name .product-title {
   display: inline-block;
 }
 
-/* line 33, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 33, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart td.product-name .product-title a {
   margin-left: 10px;
   color: #F26722;
@@ -100,7 +100,7 @@
   font-weight: 700;
 }
 
-/* line 39, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 39, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart td.product-name .product-title a.remove {
   font-size: 13px;
   color: #BFBFBF !important;
@@ -108,19 +108,19 @@
   font-weight: 400;
 }
 
-/* line 44, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 44, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart td.product-name .product-title a.remove:hover {
   background: none;
 }
 
-/* line 51, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 51, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart td .quantity input {
   border: 1px solid #F26722;
   border-radius: 0;
   color: #F26722;
 }
 
-/* line 55, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 55, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-cart td .quantity input::-webkit-inner-spin-button {
   opacity: 1;
   margin: 0;
@@ -128,58 +128,58 @@
   color: #F26722 !important;
 }
 
-/* line 66, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 66, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-total {
   border: none;
   color: #006578;
   text-align: right;
 }
 
-/* line 70, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 70, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-total th {
   border: none !important;
 }
 
-/* line 73, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 73, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-total td {
   border: none;
 }
 
-/* line 77, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 77, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce table.tamilano-total tr.cart-subtotal {
   font-size: 20px;
   font-weight: 700;
 }
 
-/* line 84, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 84, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .cart-button .orange-button {
   width: 100%;
   background: #fff;
 }
 
-/* line 87, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 87, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .cart-button .orange-button:hover {
   background: #F26722;
 }
 
-/* line 90, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 90, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .cart-button .orange-button.checkout-button {
   background: #F26722;
   color: #fff;
 }
 
-/* line 93, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 93, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .cart-button .orange-button.checkout-button:hover {
   background: #fff;
   color: #F26722;
 }
 
-/* line 103, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 103, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .woocommerce-notices-wrapper {
   margin: 15px 0;
 }
 
-/* line 105, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 105, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .woocommerce-notices-wrapper .woocommerce-message {
   background: #fff;
   color: #006578;
@@ -187,43 +187,43 @@
   border-bottom: 1px solid #F26722;
 }
 
-/* line 110, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 110, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .woocommerce-notices-wrapper .woocommerce-message::before {
   color: #F26722;
 }
 
-/* line 113, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 113, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .woocommerce-notices-wrapper .woocommerce-message a {
   color: #F26722;
 }
 
-/* line 122, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 122, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product {
   padding: 10px 0 40px 0;
 }
 
-/* line 125, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 125, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-product-gallery.tamilano-product-image-wrap {
   width: 100%;
   pointer-events: none;
 }
 
-/* line 128, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 128, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-product-gallery.tamilano-product-image-wrap .woocommerce-product-gallery__trigger {
   display: none;
 }
 
-/* line 131, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 131, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-product-gallery.tamilano-product-image-wrap .tamilano-product-image {
   text-align: right;
 }
 
-/* line 137, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 137, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .tamilano-product-summary {
   margin-top: 5px;
 }
 
-/* line 139, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 139, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .tamilano-product-summary .product-title {
   color: #F26722;
   text-transform: uppercase;
@@ -231,7 +231,7 @@
   font-weight: 700;
 }
 
-/* line 145, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 145, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .tamilano-product-summary .price {
   color: #006578;
   font-size: 20px;
@@ -241,20 +241,20 @@
   padding-bottom: 15px;
 }
 
-/* line 153, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 153, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .tamilano-product-summary .product-description {
   margin-top: 15px;
   color: #006578;
   font-size: 16px;
 }
 
-/* line 158, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 158, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .tamilano-product-summary .add-to-cart-wrap {
   border-top: 1px solid #F26722;
   padding: 15px 0;
 }
 
-/* line 162, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 162, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .tamilano-product-summary .add-to-cart-wrap .quantity input {
   border: 1px solid #F26722;
   border-radius: 0;
@@ -262,31 +262,31 @@
   padding: 5px 0 6px 0;
 }
 
-/* line 170, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 170, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .tamilano-product-summary .text-premio {
   font-size: 12px;
   color: #006578;
 }
 
-/* line 176, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 176, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-tabs.tamilano-tabs {
   border-top: 1px solid #F26722;
   margin-top: 30px;
 }
 
-/* line 179, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 179, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-tabs.tamilano-tabs ul.tabs {
   text-align: center;
   border: none;
   margin: 0;
 }
 
-/* line 183, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 183, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-tabs.tamilano-tabs ul.tabs:before, .woocommerce .product .woocommerce-tabs.tamilano-tabs ul.tabs:after {
   border: none;
 }
 
-/* line 184, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 184, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-tabs.tamilano-tabs ul.tabs li {
   padding: 10px 30px;
   background: none;
@@ -294,23 +294,23 @@
   border-radius: 0;
 }
 
-/* line 189, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 189, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-tabs.tamilano-tabs ul.tabs li:before, .woocommerce .product .woocommerce-tabs.tamilano-tabs ul.tabs li:after {
   border: none;
 }
 
-/* line 190, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 190, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-tabs.tamilano-tabs ul.tabs li a {
   text-transform: uppercase;
   color: #006578;
 }
 
-/* line 195, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 195, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-tabs.tamilano-tabs ul.tabs li.active a {
   color: #F26722;
 }
 
-/* line 201, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 201, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .product .woocommerce-tabs.tamilano-tabs .woocommerce-Tabs-panel {
   padding: 40px 100px;
   line-height: 30px;
@@ -319,12 +319,12 @@
   border-bottom: 1px solid #F26722;
 }
 
-/* line 213, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 213, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .products .product {
   margin-top: 20px;
 }
 
-/* line 216, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 216, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .products .product .product-image .tinv-wraper.tinv-wishlist {
   position: absolute;
   top: 10px;
@@ -333,7 +333,7 @@
   font-size: 20px;
 }
 
-/* line 223, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 223, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .products .product .product-image .prize-patch {
   position: absolute;
   top: 10px;
@@ -341,7 +341,7 @@
   color: #F26722;
 }
 
-/* line 231, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 231, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .products .product .product-title h2 {
   font-size: 16px;
   font-weight: 700;
@@ -350,14 +350,14 @@
   text-transform: uppercase;
 }
 
-/* line 239, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 239, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .products .product .price {
   font-weight: 700;
   color: #F26722;
   margin-top: 10px;
 }
 
-/* line 244, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/woocommerce.scss */
+/* line 244, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/woocommerce.scss */
 .woocommerce .products .product .add_to_cart_button {
   float: right;
   text-align: center;

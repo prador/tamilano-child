@@ -32,7 +32,7 @@ defined( 'ABSPATH' ) || exit;
 			<div class="col-auto">
 				<?php if(!is_user_logged_in()): ?>
 				<div class="checkout-login">
-					<?php _e("Already have an account?", "tamilano-child") ?> <a href="login">Login</a>
+					<?php _e("Already have an account?", "tamilano-child-clone") ?> <a href="login">Login</a>
 				</div>
 				<?php endif; ?>
 			</div>

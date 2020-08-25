@@ -264,7 +264,7 @@ function change_shipping_label( $label, $method ) {
 
 	if ($method->method_id == 'flat_rate' || $method->method_id == 'wf_dhl_shipping'){
 		if ($method->cost == 0 ) {
-			$new_label = _e("Free shipping", "tamilano-child");
+			$new_label = _e("Free shipping", "tamilano-child-clone");
 			return $new_label;
 		}
 
@@ -273,12 +273,12 @@ function change_shipping_label( $label, $method ) {
 			$shipping_class[] = $item['data']->get_shipping_class();
 		}
 		if(in_array("stef-shipping", $shipping_class)){
-			$new_label = preg_replace( '/^.+:/', _e("Controlled temperature shipping", "tamilano-child"), $label );
+			$new_label = preg_replace( '/^.+:/', _e("Controlled temperature shipping", "tamilano-child-clone"), $label );
 		}else{
-			$new_label = preg_replace( '/^.+:/', _e("Standard shipping", "tamilano-child"), $label );
+			$new_label = preg_replace( '/^.+:/', _e("Standard shipping", "tamilano-child-clone"), $label );
 		}
 	}else{
-		$new_label = _e("Free shipping", "tamilano-child");
+		$new_label = _e("Free shipping", "tamilano-child-clone");
 	}
     
     return $new_label;
@@ -335,24 +335,24 @@ function custom_wc_checkout_fields_no_label($fields) {
 
 add_filter( 'woocommerce_checkout_fields' , 'override_billing_checkout_fields', 20, 1 );
 function override_billing_checkout_fields( $fields ) {
-	$fields['billing']['billing_first_name']['placeholder'] = esc_html('First name', 'tamilano-child');
-	$fields['billing']['billing_last_name']['placeholder'] = esc_html('Last name', 'tamilano-child');
-	$fields['billing']['billing_company']['placeholder'] = esc_html('Company (optional)', 'tamilano-child');
-	$fields['billing']['billing_postcode']['placeholder'] = esc_html('Postcode/ZIP', 'tamilano-child');
-	$fields['billing']['billing_city']['placeholder'] = esc_html('City', 'tamilano-child');
-	$fields['billing']['billing_phone']['placeholder'] = esc_html('Phone', 'tamilano-child');
+	$fields['billing']['billing_first_name']['placeholder'] = esc_html('First name', 'tamilano-child-clone');
+	$fields['billing']['billing_last_name']['placeholder'] = esc_html('Last name', 'tamilano-child-clone');
+	$fields['billing']['billing_company']['placeholder'] = esc_html('Company (optional)', 'tamilano-child-clone');
+	$fields['billing']['billing_postcode']['placeholder'] = esc_html('Postcode/ZIP', 'tamilano-child-clone');
+	$fields['billing']['billing_city']['placeholder'] = esc_html('City', 'tamilano-child-clone');
+	$fields['billing']['billing_phone']['placeholder'] = esc_html('Phone', 'tamilano-child-clone');
 	$fields['billing']['order_comments'] = $fields['order']['order_comments'];
-	$fields['billing']['order_comments']['placeholder'] = esc_html('Order notes (optional)', 'tamilano-child');
+	$fields['billing']['order_comments']['placeholder'] = esc_html('Order notes (optional)', 'tamilano-child-clone');
 	$fields['email']['billing_email'] = $fields['billing']['billing_email'];
-	$fields['email']['billing_email']['placeholder'] = esc_html('Email*', 'tamilano-child');
+	$fields['email']['billing_email']['placeholder'] = esc_html('Email*', 'tamilano-child-clone');
 	unset($fields['billing']['billing_email'] );
 	unset($fields['billing']['billing_address_2']);
 	unset($fields['order']['order_comments']);
-	$fields['shipping']['shipping_first_name']['placeholder'] = esc_html('First name', 'tamilano-child');
-	$fields['shipping']['shipping_last_name']['placeholder'] = esc_html('Last name', 'tamilano-child');
-	$fields['shipping']['shipping_company']['placeholder'] = esc_html('Company (optional)', 'tamilano-child');
-	$fields['shipping']['shipping_postcode']['placeholder'] = esc_html('Postcode/ZIP', 'tamilano-child');
-	$fields['shipping']['shipping_city']['placeholder'] = esc_html('City', 'tamilano-child');
+	$fields['shipping']['shipping_first_name']['placeholder'] = esc_html('First name', 'tamilano-child-clone');
+	$fields['shipping']['shipping_last_name']['placeholder'] = esc_html('Last name', 'tamilano-child-clone');
+	$fields['shipping']['shipping_company']['placeholder'] = esc_html('Company (optional)', 'tamilano-child-clone');
+	$fields['shipping']['shipping_postcode']['placeholder'] = esc_html('Postcode/ZIP', 'tamilano-child-clone');
+	$fields['shipping']['shipping_city']['placeholder'] = esc_html('City', 'tamilano-child-clone');
 	unset($fields['shipping']['shipping_address_2']);
 	unset($fields['shipping']['shipping_company'] );
     return $fields;
