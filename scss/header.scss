@@ -1,0 +1,224 @@
+@import 'mixins';
+
+.header{
+    position: fixed;
+    width: 100%;
+    background: $white;
+    border-bottom: 1px solid $orange;
+    padding: 15px 0;
+    z-index: 10;
+    @include MaxQuery($md){
+        height: 70px;
+    }
+
+    & .logo{
+        height:40px;
+        text-align: center;
+        @include MaxQuery($md){
+            position: absolute;
+            left: 50%;
+            top:50%;
+            transform: translate(-50%, -50%);
+            padding: 5px 0;
+        }
+    }
+
+    & .lang-switcher{
+        color: $orange;
+        float: right;
+        font-size: 18px;
+        border: none;
+        margin-left:20px;
+        padding: 3px;
+        background: $white;
+        @include MaxQuery($xl){
+            font-size: 16px;
+        }
+        @include MaxQuery($lg){
+            font-size: 14px;
+            margin-left:10px;
+            padding:6px 0px;
+        }
+    }
+
+    & .main-menu{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        & li{
+            display: inline-block;
+            line-height: 20px;
+            vertical-align: middle;
+            height: 20px;
+            & a{
+                color: $orange;
+                text-transform: uppercase;
+                font-size: 18px;
+                display: inline-block;
+                line-height: 20px;
+                vertical-align: middle;
+                @include MaxQuery($xl){
+                    font-size: 16px;
+                    line-height: 16px;
+                }
+                @include MaxQuery($lg){
+                    font-size: 14px;
+                    line-height: 14px;
+                }
+            }
+        }
+        &.text-left{
+            & li{
+                margin-right: 30px;
+                @include MaxQuery($xl){
+                    margin-right: 20px;
+                }
+                @include MaxQuery($lg){
+                    margin-right: 10px;
+                }
+                &.shop-dropdown{
+                    & span{
+                        & i{
+                            font-weight: $regular;
+                            margin-left:8px;
+                            font-size: 14px;
+                            color: $orange;
+                            cursor: pointer;                    
+                        }
+                    }
+                }
+            }
+        }
+        &.text-right{
+            & li{
+                display: inline-block;
+                margin-left: 30px;
+                @include MaxQuery($xl){
+                    margin-left: 20px;
+                }
+                @include MaxQuery($lg){
+                    margin-left: 10px;
+                }
+                &.icon{
+                    & a{ 
+                        height: 20px;
+                        width:20px;
+                        text-indent: -9999px;
+                        white-space: nowrap; 
+                        overflow: hidden;  
+                        font-size: 0;
+                        @include MaxQuery($xl){
+                            height:16px;
+                            width:16px;
+                        } 
+                        @include MaxQuery($lg){
+                            height:14px;
+                            width:14px;
+                        }
+                    }
+                    &.cart{
+                        & a{
+                            background: url(../img/bag-inactive.png);
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: contain;
+                        }
+                    }
+                    &.my-account{
+                        & a{
+                            background: url(../img/account-inactive.png);
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: contain;
+                        }
+                    }
+                    &.wishlist{
+                        & a{
+                            background: url(../img/wishlist-inactive.png);
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    & .menu-button{
+        float: right;
+        color: $orange;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    & .menu-mobile-menu-container {
+        display: none;
+        top:55px;
+        left:0;
+        padding: 20px;
+        position: absolute;
+        background: $white;
+        border-bottom: 1px solid $orange;
+        & ul{
+            margin: 0;
+            padding: 0;
+            height: auto;
+            & li{
+                width:100%;
+                padding: 5px 0;
+                height: auto;
+            }
+        }
+    }
+	& .menu-mobile-menu-it-container {
+        display: none;
+        top:55px;
+        left:0;
+        padding: 20px;
+        position: absolute;
+        background: $white;
+        border-bottom: 1px solid $orange;
+        & ul{
+            margin: 0;
+            padding: 0;
+            height: auto;
+            & li{
+                width:100%;
+                padding: 5px 0;
+                height: auto;
+            }
+        }
+    }
+
+}
+
+.shop-menu{
+    position: fixed;
+    width:100%;
+    padding: 40px 0;
+    top:70px;
+    z-index: 10;
+    left: 0;
+    background: $blue;
+    display: none;
+    border-bottom: 1px solid $orange;
+    & .cat-menu{
+        margin: 0;
+        list-style:none;
+        padding: 0;
+        & li{
+            border-bottom: 1px solid $orange;
+            padding: 8px 15px;
+            max-width: 200pxs;
+            & a{ 
+                color:$white;
+                font-size: 16px;
+            }
+        }
+    }
+    & .image-menu{
+        max-height: 300px;
+        margin: 0 20px;
+    }
+}

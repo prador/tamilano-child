@@ -1,0 +1,42 @@
+/* DEFINE FONTS*/
+/* DEFINE COLOURS*/
+/* DEFINE COLUMNS */
+/* line 26, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+.col-custom {
+  position: relative;
+  flex: 0 0 calc(50% - 40px);
+  max-width: calc(50% - 40px);
+}
+
+/* line 32, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+.col-custom-2 {
+  position: relative;
+  flex: 0 0 calc(50% + 40px);
+  max-width: calc(50% + 40px);
+}
+
+/* line 38, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+.col-custom-3 {
+  position: relative;
+  flex: 0 0 12.5%;
+  max-width: 12.5%;
+}
+
+/* line 44, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+.col-center {
+  position: relative;
+  flex: 0 0 80px;
+  max-width: 80px;
+}
+
+/* line 50, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+.offset-custom {
+  margin-left: calc(50% - 40px);
+}
+
+/* line 54, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child/scss/mixins.scss */
+.offset-custom-2 {
+  margin-left: calc(50% + 40px);
+}
+
+/*# sourceMappingURL=mixins.css.map */

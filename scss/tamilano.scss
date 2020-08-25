@@ -1,0 +1,140 @@
+@import 'bootstrap/bootstrap';
+@import 'fontawesome/fontawesome';
+@import 'fontawesome/solid';
+@import 'fontawesome/regular';
+@import 'fontawesome/brands';
+@import 'fontawesome/light';
+@import 'mixins';
+@import 'welcome';
+@import 'header';
+@import 'main';
+@import 'woocommerce';
+@import 'wishlist';
+@import 'footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap');
+$lato: "Lato", sans-serif;
+
+/* DEFINE COLUMNS */
+
+.col-custom{
+    position: relative;
+    flex: 0 0 calc(50% - 40px);
+    max-width: calc(50% - 40px);
+    &.full-mobile{
+        @include MaxQuery($md){
+            flex: 0 0 100%;
+            max-width: 100%;
+            &.padding{
+                padding:0 15px;
+            }
+        }
+    }
+    &.pattern-mobile{
+        @include MaxQuery($md){
+            flex: 0 0 calc(100% - 80px);
+            max-width: calc(100% - 80px);
+            padding-right: 15px;
+        }
+    }
+}
+
+.col-custom-2{
+    position: relative;
+    flex: 0 0 calc(50% + 40px);
+    max-width: calc(50% + 40px);
+
+}
+
+.col-custom-3{
+    position: relative;
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+    padding: 0 15px;
+    @include MaxQuery($md){
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+    }
+}
+
+.col-center{
+    position: relative;
+    flex: 0 0 80px;
+    max-width: 80px;
+    &.full-mobile{
+        @include MaxQuery($md){
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+.offset-custom{
+    margin-left: calc(50% - 40px);
+    &.left-mobile{
+        @include MaxQuery($md){
+            margin-left:0;
+        }
+    }
+}
+
+.offset-custom-2{
+    margin-left: calc(50% + 40px);
+    &.left-mobile{
+        @include MaxQuery($md){
+            margin-left:0;
+            padding: 0 15px;
+        }
+    }
+}
+
+body{
+    background: $white;
+    font-family: $lato;
+    font-weight: $regular;
+}
+
+*{
+    outline: none !important;
+}
+
+.container{
+    width: 90%;
+    max-width: 1600px;
+    @include MaxQuery($md){
+        width: 100%;
+    }
+    &.white-overlay{
+        position: relative;
+        z-index: 10;
+        background: $white;
+    }
+}
+
+a, a:hover, a:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+.img-full{
+    width:100%;
+}
+
+.orange-button{
+    text-align: center;
+    color: $orange;
+    border: 1px solid $orange;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: $bold;
+    padding: 7px 25px;
+    display: inline-block;
+    &:hover {
+        background-color: $orange;
+        color: $white;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+}
+

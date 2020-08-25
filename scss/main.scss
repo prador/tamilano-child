@@ -1,0 +1,721 @@
+@import 'mixins';
+
+.main{
+    padding: 70px 0 0 0;
+    position: relative;
+    z-index: 6;
+    background: $white;
+    margin-bottom: 100vh;
+    min-height: 100vh;
+    & .container{
+        &.white-overlay{
+            padding-bottom: 70px;
+        }
+    }
+    & .fixed-logo{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        z-index: 5;
+        top:0;
+        pointer-events: none;
+        & .big-logo{
+            position: relative;
+            top: 100px;
+            width: 700px;
+            float: right;
+            max-width: 100%;
+            @include MaxQuery($xl){
+                width: 450px; 
+                top: 150px;
+            }
+            @include MaxQuery($lg){
+                width: 340px; 
+                top: 150px;
+            }
+            @include MaxQuery($md){
+                width: 80%;
+                float: none;
+                margin: 0 auto;
+                top: 120px;
+                max-width: 400px;
+            }
+        }
+    }
+    & .divider{
+        height: 355px;
+        width: 1px;
+        background: $orange;
+        position: relative;
+        top:0;
+        left:50%;
+        margin-bottom: 15px;
+        @include MaxQuery($md){
+            height: 250px;
+            left:35px;
+        }
+        &.short{
+            height: 120px;
+        }
+        &.shorter{
+            height: 60px;
+        }
+    }
+
+    & .section{
+        position: relative;
+        z-index: 7;
+        & .section-title-icon{
+            text-align: center;
+        }
+        & .section-title{
+            font-size: 30px;
+            color: $orange;
+            font-weight: $bold;
+            line-height: 40px;
+            text-transform: uppercase;
+            @include MaxQuery($md){
+                font-size: 24px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    & .content{
+        color: $blue;
+        margin-top: 10px;
+        & a{
+            color:$orange;
+        }
+    }
+}
+
+
+
+/* HOME HEADER */
+
+.home-header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: $blue;
+    min-height: 900px;
+    max-height: 1024px;
+
+    @include MaxQuery($xl){
+        min-height: 680px;
+        max-height: 840px;
+    }
+    @include MaxQuery($lg){
+        min-height: 620px;
+        max-height: 800px;
+    }
+    @include MaxQuery($md){
+        height: auto;
+        padding-bottom: 0px;
+        min-height: auto;
+
+    }
+    & .big-logo{ 
+        position: relative;
+        top: 100px;
+        width: 650px;
+        float: right;
+        @include MaxQuery($xxl){
+            width: 500px; 
+            top: 125px;
+        }
+        @include MaxQuery($xl){
+            width: 450px; 
+            top: 150px;
+        }
+        @include MaxQuery($lg){
+            width: 340px; 
+            top: 150px;
+        }
+        @include MaxQuery($md){
+            width: 80%;
+            float: none;
+            margin: 0 auto;
+            top: 0;
+            padding-top:50px;
+            max-width: 400px;
+        }
+    }
+    & .pattern-gold{
+        position: relative;
+        top:435px;
+        text-align: center;
+        @include MaxQuery($xxl){
+            top:380px;
+        }
+        @include MaxQuery($xl){
+            top: 375px; 
+        }
+        @include MaxQuery($lg){
+            top: 317px 
+        }
+        @include MaxQuery($md){
+            top:0;
+            padding:10px 0;
+        }
+    }
+    & .image-header{
+        position: absolute;
+        width: 100%;
+        max-width: 850px;
+        bottom:-200px;
+        left: 50px;
+        @include MaxQuery($xxl){
+            max-width: 650px;
+        }
+        @include MaxQuery($xl){
+            max-width: 550px;
+            left: 20px; 
+        }
+        @include MaxQuery($lg){
+            max-width: 530px;
+            left: 0px; 
+        }
+        @include MaxQuery($md){
+            position: relative;
+            max-width: 100%;
+            margin: -50px auto 0 auto;
+            left: 0px;
+            bottom:-70px;
+            padding: 0;
+        }
+    }
+    & .container{
+        height: 100%;
+        @include MaxQuery($md){
+            height: auto;
+        }
+        & .home-header-text{
+            color: $white;
+            font-size: 24px;
+            position: relative;
+            top:435px;
+            margin-top: -10px;
+            @include MaxQuery($xxl){
+                top:375px;
+            }
+            @include MaxQuery($xl){
+                top: 380px; 
+            }
+            @include MaxQuery($lg){
+                top: 322px 
+            }
+            @include MaxQuery($md){
+                top:0;
+                padding:10px 0;
+            }
+            @include MaxQuery($md){
+                top:0px;
+                text-align: center;
+                margin-top: 0;
+            }
+        }
+
+    }
+}
+
+/* WOT HEADER */
+
+.company-header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: $blue;
+    min-height: 900px;
+    max-height: 1024px;
+
+    @include MaxQuery($xl){
+        min-height: 680px;
+        max-height: 840px;
+    }
+    @include MaxQuery($lg){
+        min-height: 620px;
+        max-height: 800px;
+    }
+    @include MaxQuery($md){
+        height: auto;
+        padding-bottom: 0px;
+        min-height: auto;
+
+    }
+    & .big-logo{ 
+        position: relative;
+        top: 0px;
+        width: 650px;
+        float: right;
+        @include MaxQuery($xxl){
+            width: 500px; 
+        }
+        @include MaxQuery($xl){
+            width: 450px; 
+        }
+        @include MaxQuery($lg){
+            width: 340px; 
+        }
+        @include MaxQuery($md){
+            width: 80%;
+            float: none;
+            margin: 0 auto;
+            top: 0;
+            padding-top:50px;
+            max-width: 400px;
+        }
+    }
+    & .pattern-orange{
+        position: relative;
+        top:405px;
+        text-align: center;
+        @include MaxQuery($xxl){
+            top:307px;
+        }
+        @include MaxQuery($xl){
+            top: 275px; 
+        }
+        @include MaxQuery($lg){
+            top: 200px 
+        }
+        @include MaxQuery($md){
+            top:0;
+            padding:10px 0;
+        }
+    }
+    & .container{
+        height: 100%;
+        @include MaxQuery($md){
+            height: auto;
+        }
+        & .company-header-title{
+            font-size: 30px;
+            color: $orange;
+            font-weight: $bold;
+            line-height: 40px;
+            text-transform: uppercase;
+            @include MaxQuery($md){
+                font-size: 24px;
+                line-height: 28px;
+            }
+        }
+        & .company-header-text{
+            color: $white;
+            font-size: 24px;
+            position: relative;
+            top:405px;
+            margin-top: -10px;
+            @include MaxQuery($xxl){
+                top:307px;
+            }
+            @include MaxQuery($xl){
+                top: 275px; 
+            }
+            @include MaxQuery($lg){
+                top: 200px 
+            }
+            @include MaxQuery($md){
+                top:0;
+                padding:10px 0;
+            }
+            @include MaxQuery($md){
+                top:0px;
+                text-align: center;
+                margin-top: 0;
+            }
+        }
+
+    }
+}
+
+
+
+/* FULL WIDTH BANNER */
+.full-banner{
+    & .banner{
+        width: 100%;
+        padding: 10px 0 40px 0;
+        & img{
+            width: 100%;
+        }
+    }
+}
+
+/* LAYOUT MOSAICO */
+
+.layout_mosaico{
+    padding-bottom: 70px;
+    & a {
+        display: inline-block;
+        & .testo-mosaico{
+            font-size: 16px;
+            font-weight: $bold;
+            color: $blue;
+            text-transform: uppercase;
+            margin-top: 5px;
+            text-align: left;
+            height: 25px;
+            @include MaxQuery($md){
+                margin-bottom: 10px;
+            }
+        } 
+    }
+    & .section-text{
+        color: $blue;
+        max-width: 75%;
+        @include MaxQuery($md){
+            max-width: 100%;
+        }
+    }
+
+    & .orizontal-mosaic{
+        height: 340px;
+        position: relative;
+        width:100%;
+        & .image-mosaico{
+            overflow: hidden;
+            height: 310px;
+            position: relative;
+            & img{
+                position: absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                min-width:100%;
+                max-width: none;
+                height: 310px;
+            }
+        }
+    }
+
+    & .vertical-mosaic{
+        height: 680px;
+        position: relative;
+        width:100%;
+        & .image-mosaico{
+            overflow: hidden;
+            height: 650px;
+            position: relative;
+            & img{
+                position: absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                min-width:100%;
+                max-width: none;
+                height: 650px;
+            }
+        }
+    }
+      
+}
+
+/* BOX WITH BUTTON */
+
+.box-button{
+    padding: 10px 0 40px 0;
+    & .box{
+        margin-top: 20px;
+        & .orange-button{
+            width: 80%;
+            margin-top: 25px;
+            background: $white;
+            &:hover{
+                background: $orange;
+            }
+        }
+    }
+}
+
+/* FEATURED PRODUCT */
+
+.featured-product{ 
+    padding: 10px 0 40px 0;
+    & .product-box{
+        margin-top: 20px;
+        & .product-name{
+            & a{
+                color: $blue;
+            }
+            font-size: 16px;
+            font-weight: $bold;
+            margin: 10px 0;
+            text-transform: uppercase;
+        }
+        & .product-price{
+            font-weight: $bold;
+            color: $orange;
+            margin-top: 10px;
+        }
+        & .product-add-to-cart{
+            float: right;
+        }
+    }
+} 
+
+/* DUE COLONNE */
+
+.due_colonne{
+    padding: 10px 0 40px 0;
+    & .image{
+        margin-top: 10px;
+    }
+    & .text{
+        padding-left: 25px;
+        color: $blue;
+        max-width: 75%;
+        @include MaxQuery($lg){
+            max-width: 100%;
+        }
+        @include MaxQuery($md){
+            max-width: 100%;
+            margin-top: 20px;
+            padding-left: 0;
+        }
+        & h1{
+            font-weight: $bold;
+            font-size: 30px;
+            line-height: 50px;
+        }
+        & h2{
+            font-weight: $regular;
+            font-size: 24px;
+            padding-bottom: 20px;
+        }
+        & h3{
+            font-weight: $bold;
+            font-size: 18px;
+            padding-bottom: 0px;
+        }
+        & a{
+            color: $orange;
+			&:hover {
+				color: $white;
+			}
+        }
+        & .orange-button{
+            margin-top: 20px;
+        }
+    }
+}
+
+/* PRIZE LIST */
+
+.prize-list{
+    padding: 10px 0 40px 0;
+    & .prize{
+        margin-top: 20px;
+    }
+}
+
+/* PRIZE DETAILED LIST */
+
+.prize_detailed_list{
+    padding: 10px 0 40px 0;
+    & .premio-wrap{
+            padding: 20px 0;
+        & .premio-image{
+            max-width: 150px;
+            float: right;
+            @include MaxQuery($md){
+                float: none;
+                margin: 0 auto 15px auto; 
+            }
+        }
+        & .premio-title{
+            color: $blue;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding-bottom: 15px;
+        }
+        & .premio-text{
+            color: $blue;
+        }
+        & hr{
+            width: calc(50% + 200px);
+            margin-right: 0;
+            border-top: 1px solid $blue;
+            margin-top: 50px;
+            @include MaxQuery($md){
+                margin: 15px; 
+            }
+        }
+    }
+}
+
+/* CUSTOMIZATION PREVIEW */
+
+.customization-preview{
+    & .section-text{
+        color: $blue;
+        max-width: 75%;
+        margin-bottom: 30px;
+    }
+
+
+    & .image-mosaico{
+        position: relative;
+        overflow: hidden;
+        &.big{
+            height: 520px;
+            & img{
+                position: absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width:100%;
+                max-width: none;
+                min-height: 520px;
+            }
+        }
+        &.small{
+            height: 250px;
+            margin-bottom: 20px;
+            & img{
+                position: absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width:100%;
+                max-width: none;
+                min-height: 250px;       
+            }
+        }
+    }  
+}
+
+/* CONTACTS */
+
+.form-input{
+    & input{
+        border: none;
+        border-bottom: 1px solid $orange;
+        color:$blue;
+        padding: 10px 15px;
+        margin-top: 10px;
+        width:100%;
+        &::placeholder{
+            color:$blue; 
+        }
+    }
+    & textarea{
+        border: none;
+        border: 1px solid $orange;
+        color:$blue;
+        padding: 10px 15px;
+        margin-top: 15px;
+        resize: none;
+        max-height: 100px;
+        width:100%;
+        &::placeholder{
+            color:$blue; 
+        }
+    }
+}
+
+.form-notes{
+    font-size: 14px;
+    color: $blue;
+}
+
+.form-submit{
+    text-align: left;
+    margin-top: 30px;
+    & input{ 
+        text-align: center;
+        color: $white;
+        border: 1px solid $orange;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: $bold;
+        padding: 6px 50px;
+        display: inline-block;
+        background-color: $orange;
+
+        &:hover {
+            background-color: $white;
+            color: $orange;
+            -webkit-transition: all 0.4s;
+            -moz-transition: all 0.4s;
+            transition: all 0.4s;
+        }
+    }
+}
+
+/* LOGIN */
+
+.tml{
+    & .tml-label{
+        display: none;
+    } 
+
+    & .tml-button{
+        text-align: center;
+        color: $white;
+        border: 1px solid $orange;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: $bold;
+        padding: 6px 50px;
+        display: inline-block;
+        background-color: $orange;
+
+        &:hover {
+            background-color: $white;
+            color: $orange;
+            -webkit-transition: all 0.4s;
+            -moz-transition: all 0.4s;
+            transition: all 0.4s;
+        }
+    }
+
+    & .tml-submit-wrap{
+        display: inline-block;
+    }
+
+    & .tml-register-link, & .tml-login-link{
+        float: right;
+        margin-top: -50px;
+        & a{
+            text-align: center;
+            color: $orange;
+            border: 1px solid $orange;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: $bold;
+            padding: 6px 50px;
+            display: inline-block;
+            background-color: $white;
+
+            &:hover {
+                background-color: $orange;
+                color: $white;
+                -webkit-transition: all 0.4s;
+                -moz-transition: all 0.4s;
+                transition: all 0.4s;
+            }
+        }
+    }
+
+    & .tml-lostpassword-link{
+        & a{
+            font-size: 14px;
+            color: $orange;
+        }
+    }
+
+    & input{
+        border: none;
+        border-bottom: 1px solid $orange;
+        color:$blue;
+        padding: 10px 15px;
+        margin-top: 10px;
+        width:100%;
+        &::placeholder{
+            color:$blue; 
+        }
+    } 
+}
