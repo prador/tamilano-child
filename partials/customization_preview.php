@@ -3,7 +3,7 @@
 <div class="section customization-preview" <?php if(get_sub_field("white_background")): echo "style='background:#fff'"; endif; ?>>
     <div class="container">
         <div class="row">   
-            <div class="col-center offset-custom">
+        <div class="col-center offset-custom left-mobile">
                 <div class="section-title-icon">
                     <img src="<?php echo $image_path; ?>/pattern-orange.png" class="img-fluid" />
                 </div>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <?php if(get_sub_field("testo_intro")): ?>
-                <div class="col-custom offset-custom-2">
+                <div class="col-custom offset-custom-2 left-mobile full-mobile">
                     <div class="section-text">
                         <?php echo get_sub_field("testo_intro"); ?>
                     </div>
