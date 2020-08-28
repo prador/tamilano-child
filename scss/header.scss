@@ -119,7 +119,7 @@
                     }
                     &.cart{
                         & a{
-                            background: url(../img/bag-inactive.png);
+                            background: url(../img/bag-inactive.svg);
                             background-repeat: no-repeat;
                             background-position: center center;
                             background-size: contain;
@@ -127,7 +127,7 @@
                     }
                     &.my-account{
                         & a{
-                            background: url(../img/account-inactive.png);
+                            background: url(../img/account-inactive.svg);
                             background-repeat: no-repeat;
                             background-position: center center;
                             background-size: contain;
@@ -135,7 +135,7 @@
                     }
                     &.wishlist{
                         & a{
-                            background: url(../img/wishlist-inactive.png);
+                            background: url(../img/wishlist-inactive.svg);
                             background-repeat: no-repeat;
                             background-position: center center;
                             background-size: contain;

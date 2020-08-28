@@ -3,7 +3,7 @@
 <div class="welcome-wrapper">
 	<div class="left-column" >
 		<div class="logo">
-			<img src="<?php echo $image_path; ?>/ta-logo-gold.png" class="img-fluid" />
+			<img src="<?php echo $image_path; ?>/ta-logo-gold.svg" class="img-fluid" />
 		</div>
 	</div>
 	<div class="right-column">

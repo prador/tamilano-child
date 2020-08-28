@@ -19656,7 +19656,7 @@ readers do not read off random characters that represent icons */
 
 /* line 121, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/header.scss */
 .header .main-menu.text-right li.icon.cart a {
-  background: url(../img/bag-inactive.png);
+  background: url(../img/bag-inactive.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -19664,7 +19664,7 @@ readers do not read off random characters that represent icons */
 
 /* line 129, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/header.scss */
 .header .main-menu.text-right li.icon.my-account a {
-  background: url(../img/account-inactive.png);
+  background: url(../img/account-inactive.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -19672,7 +19672,7 @@ readers do not read off random characters that represent icons */
 
 /* line 137, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/header.scss */
 .header .main-menu.text-right li.icon.wishlist a {
-  background: url(../img/wishlist-inactive.png);
+  background: url(../img/wishlist-inactive.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;

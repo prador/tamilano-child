@@ -33,7 +33,7 @@
 						</div>
 						<div class="col-center">
 							<div class="logo">
-								<a href="<?php echo site_url();?>/home-page-shop"><img src="<?php echo $image_path?>/header-logo.png" class="img-fluid" /></a>
+								<a href="<?php echo site_url();?>/home-page-shop"><img src="<?php echo $image_path?>/header-logo.svg" class="img-fluid" /></a>
 							</div>
 						</div>
 						<div class="col-custom">
@@ -50,7 +50,7 @@
 					<div class="row align-items-center d-flex d-md-none">
 						<div class="col-12">
 							<div class="logo">
-								<img src="<?php echo $image_path?>/header-logo.png" class="img-fluid" />
+								<img src="<?php echo $image_path?>/header-logo.svg" class="img-fluid" />
 							</div>
 							<div class="menu-button">
 								<i class="fal fa-bars"></i>
