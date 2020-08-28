@@ -45,7 +45,7 @@ global $image_path;
 			</div>
 			<div class="col-center offset-custom">
 				<div class="section-title-icon">
-                    <img src="<?php echo $image_path; ?>/pattern-orange.png" class="img-fluid" />
+                    <img src="<?php echo $image_path; ?>/pattern-orange.svg" class="img-fluid" />
                 </div>
 			</div>
 			<div class="col-custom">
@@ -100,7 +100,7 @@ global $image_path;
 		</div>
 		<div class="col-center offset-custom">
 			<div class="section-title-icon">
-				<img src="<?php echo $image_path; ?>/pattern-orange.png" class="img-fluid" />
+				<img src="<?php echo $image_path; ?>/pattern-orange.svg" class="img-fluid" />
 			</div>
 		</div>
 		<div class="col-custom">

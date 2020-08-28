@@ -4,12 +4,12 @@
         <div class="row h-100">   
             <div class="col-custom full-mobile">
                 <div class="big-logo">
-                    <img src="<?php echo $image_path; ?>/ta-logo-build.png" class="img-full">
+                    <img src="<?php echo $image_path; ?>/ta-logo-build..svg" class="img-full">
                 </div>
             </div>
             <div class="col-center full-mobile">
                 <div class="pattern-orange">
-                    <img src="<?php echo $image_path; ?>/pattern-orange.png" class="img-fluid">
+                    <img src="<?php echo $image_path; ?>/pattern-orange.svg" class="img-fluid">
                 </div>
             </div>
             <div class="col-custom full-mobile">

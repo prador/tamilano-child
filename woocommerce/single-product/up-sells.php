@@ -54,7 +54,7 @@ if ( $prodQuery->have_posts() ) {
 		<div class="row">
 			<div class="col-center offset-custom left-mobile">
 				<div class="section-title-icon">
-					<img src="<?php echo $image_path; ?>/pattern-orange.png" class="img-fluid" />
+					<img src="<?php echo $image_path; ?>/pattern-orange.svg" class="img-fluid" />
 				</div>
 			</div>
 			<div class="col-custom pattern-mobile">

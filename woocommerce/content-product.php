@@ -50,7 +50,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 		<div class="product-image">
 			<?php if( have_rows('premio') ): ?>
 				<div class="prize-patch">
-					<img src="<?php echo $image_path; ?>/award-badge.png">
+					<img src="<?php echo $image_path; ?>/award-badge..svg">
 				</div>
 			<?php endif; ?>
 

@@ -10,7 +10,7 @@
 		<div class="welcome-box first-box" style="background:url(<?php  echo wp_get_attachment_url(get_field("immagine_1")); ?>); background-size:cover; background-position:center">
 			<div class="link-box">
 				<div class="link-icon">
-					<img src="<?php echo $image_path; ?>/pattern-orange.png" class="img-fluid" />
+					<img src="<?php echo $image_path; ?>/pattern-orange.svg" class="img-fluid" />
 				</div>
 				<div class="d-inline-block">
 					<div class="link-title"><?php _e('Chocolate & Pastry','tamilano-child-clone'); ?></div>
@@ -22,7 +22,7 @@
 		<div class="welcome-box second-box" style="background:url(<?php echo wp_get_attachment_url(get_field("immagine_2")); ?>); background-size:cover; background-position:center">
 			<div class="link-box">
 				<div class="link-icon">
-					<img src="<?php echo $image_path; ?>/pattern-orange.png" class="img-fluid" />
+					<img src="<?php echo $image_path; ?>/pattern-orange.svg" class="img-fluid" />
 				</div>
 				<div class="d-inline-block">
 					<div class="link-title"><?php _e('Catering & Event','tamilano-child-clone'); ?></div>
