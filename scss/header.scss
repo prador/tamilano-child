@@ -164,6 +164,11 @@
             margin: 0;
             padding: 0;
             height: auto;
+            &.sub-menu {
+                width: 100%;
+                padding: 10px 0 10px 15px;
+                height: auto;
+            }
             & li{
                 width:100%;
                 padding: 5px 0;
@@ -183,6 +188,11 @@
             margin: 0;
             padding: 0;
             height: auto;
+            &.sub-menu {
+                width: 100%;
+                padding: 10px 0 10px 15px;
+                height: auto;
+            }
             & li{
                 width:100%;
                 padding: 5px 0;

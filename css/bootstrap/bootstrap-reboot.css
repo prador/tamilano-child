@@ -5,14 +5,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
-/* line 19, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 19, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* line 25, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 25, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -20,12 +20,12 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 35, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 35, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-/* line 46, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 46, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -37,31 +37,31 @@ body {
   background-color: #fff;
 }
 
-/* line 66, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 66, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
 
-/* line 76, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 76, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
 
-/* line 92, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 92, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
-/* line 101, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 101, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-/* line 114, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 114, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -71,14 +71,14 @@ abbr[data-original-title] {
   text-decoration-skip-ink: none;
 }
 
-/* line 123, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 123, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
 }
 
-/* line 129, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 129, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 ol,
 ul,
 dl {
@@ -86,7 +86,7 @@ dl {
   margin-bottom: 1rem;
 }
 
-/* line 136, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 136, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 ol ol,
 ul ul,
 ol ul,
@@ -94,34 +94,34 @@ ul ol {
   margin-bottom: 0;
 }
 
-/* line 143, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 143, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 dt {
   font-weight: 700;
 }
 
-/* line 147, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 147, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 dd {
   margin-bottom: .5rem;
   margin-left: 0;
 }
 
-/* line 152, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 152, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 blockquote {
   margin: 0 0 1rem;
 }
 
-/* line 156, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 156, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 b,
 strong {
   font-weight: bolder;
 }
 
-/* line 161, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 161, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 small {
   font-size: 80%;
 }
 
-/* line 170, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 170, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 sub,
 sup {
   position: relative;
@@ -130,42 +130,42 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 178, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 178, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 sub {
   bottom: -.25em;
 }
 
-/* line 179, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 179, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 sup {
   top: -.5em;
 }
 
-/* line 186, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 186, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 a {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
 }
 
-/* line 13, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/mixins/_hover.scss */
+/* line 13, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/mixins/_hover.scss */
 a:hover {
   color: #0056b3;
   text-decoration: underline;
 }
 
-/* line 202, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 202, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 a:not([href]) {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 13, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/mixins/_hover.scss */
+/* line 13, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/mixins/_hover.scss */
 a:not([href]):hover {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 217, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 217, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 pre,
 code,
 kbd,
@@ -174,7 +174,7 @@ samp {
   font-size: 1em;
 }
 
-/* line 225, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 225, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -182,29 +182,29 @@ pre {
   -ms-overflow-style: scrollbar;
 }
 
-/* line 242, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 242, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 figure {
   margin: 0 0 1rem;
 }
 
-/* line 252, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 252, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 img {
   vertical-align: middle;
   border-style: none;
 }
 
-/* line 257, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 257, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 svg {
   overflow: hidden;
   vertical-align: middle;
 }
 
-/* line 269, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 269, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 table {
   border-collapse: collapse;
 }
 
-/* line 273, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 273, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -213,29 +213,29 @@ caption {
   caption-side: bottom;
 }
 
-/* line 281, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 281, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 th {
   text-align: inherit;
 }
 
-/* line 292, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 292, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
 
-/* line 301, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 301, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 button {
   border-radius: 0;
 }
 
-/* line 310, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 310, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-/* line 315, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 315, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 input,
 button,
 select,
@@ -247,29 +247,29 @@ textarea {
   line-height: inherit;
 }
 
-/* line 326, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 326, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 button,
 input {
   overflow: visible;
 }
 
-/* line 331, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 331, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 339, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 339, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 [role="button"] {
   cursor: pointer;
 }
 
-/* line 346, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 346, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 select {
   word-wrap: normal;
 }
 
-/* line 354, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 354, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -277,7 +277,7 @@ button,
   -webkit-appearance: button;
 }
 
-/* line 367, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 367, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -285,7 +285,7 @@ button:not(:disabled),
   cursor: pointer;
 }
 
-/* line 374, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 374, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -294,20 +294,20 @@ button::-moz-focus-inner,
   border-style: none;
 }
 
-/* line 382, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 382, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 input[type="radio"],
 input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 389, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 389, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 textarea {
   overflow: auto;
   resize: vertical;
 }
 
-/* line 395, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 395, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 fieldset {
   min-width: 0;
   padding: 0;
@@ -315,7 +315,7 @@ fieldset {
   border: 0;
 }
 
-/* line 410, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 410, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 legend {
   display: block;
   width: 100%;
@@ -328,51 +328,51 @@ legend {
   white-space: normal;
 }
 
-/* line 422, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 422, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 progress {
   vertical-align: baseline;
 }
 
-/* line 427, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 427, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 432, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 432, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
 }
 
-/* line 445, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 445, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 454, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 454, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
 }
 
-/* line 463, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 463, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 output {
   display: inline-block;
 }
 
-/* line 467, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 467, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 summary {
   display: list-item;
   cursor: pointer;
 }
 
-/* line 472, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 472, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 template {
   display: none;
 }
 
-/* line 478, ../../Users/mmand/Desktop/Progetti/tamilano/wp-content/themes/tamilano-child-clone/scss/bootstrap/_reboot.scss */
+/* line 478, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/bootstrap/_reboot.scss */
 [hidden] {
   display: none !important;
 }

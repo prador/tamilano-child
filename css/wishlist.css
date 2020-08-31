@@ -1,0 +1,154 @@
+/* DEFINE FONTS*/
+/* DEFINE COLOURS*/
+/* line 4, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table th {
+  font-weight: 400;
+  color: #006578;
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 1px solid #F26722;
+}
+
+/* line 11, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table td {
+  color: #F26722;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #F26722;
+}
+
+/* line 17, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table td.product-name {
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* line 20, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table td.product-name .product-image {
+  float: left;
+}
+
+/* line 22, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table td.product-name .product-image img {
+  width: 100px;
+}
+
+/* line 26, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table td.product-name .product-text {
+  display: inline-block;
+  margin: 15px;
+  color: #006578;
+  font-size: 16px;
+}
+
+/* line 32, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table td.product-name .product-text a {
+  color: #F26722;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 38, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table td.product-name .product-text .variation {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 42, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table td.product-name .product-text button {
+  border: 0;
+  background: none;
+  padding: 0;
+  font-size: 13px;
+  color: #BFBFBF !important;
+  text-transform: none;
+  font-weight: 400;
+  display: inline-block;
+}
+
+/* line 51, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table td.product-name .product-text button:hover {
+  background: none;
+}
+
+/* line 58, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table .product-action {
+  width: auto;
+}
+
+/* line 60, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table .product-action .orange-button {
+  text-align: center;
+  color: #fff;
+  border: 1px solid #F26722;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 7px 25px;
+  display: inline-block;
+  background: #F26722;
+}
+
+/* line 70, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table .product-action .orange-button:hover {
+  background-color: #fff;
+  color: #F26722;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* line 80, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table tfoot .button {
+  text-align: center;
+  color: #F26722;
+  border: 1px solid #F26722;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 7px 25px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 0;
+}
+
+/* line 91, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table tfoot .button:hover {
+  background-color: #F26722;
+  color: #fff;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* line 99, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table tfoot .tinvwl-to-left + .tinvwl-to-right {
+  margin-top: -5px;
+}
+
+/* line 102, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist table tfoot .tinvwl-break-input-filed {
+  border: 1px solid #F26722;
+  display: inline-block;
+  padding: 4px 25px;
+  background: #fff;
+  border-radius: 0;
+  font-size: 14px;
+  height: auto;
+  color: #006578;
+  float: none;
+}
+
+/* line 115, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist .social-buttons {
+  color: #006578;
+}
+
+/* line 117, P:/Projects/AddLab/Ta milano/tamilano-child-duplicate/scss/wishlist.scss */
+.tinv-wishlist .social-buttons a {
+  color: #F26722;
+}
+
+/*# sourceMappingURL=wishlist.css.map */
